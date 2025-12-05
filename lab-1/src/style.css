@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stats {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.filter-row {
+    display: flex;
+    gap: 5px;
+}
+
+.task-item {
+    background: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item.done h4 {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-item.high {
+    border-left: 5px solid red;
+}
+
+.btn-primary {
+    background: #42b883;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background: #ff4444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+.empty {
+    text-align: center;
+    color: #777;
+    padding: 20px;
+}
