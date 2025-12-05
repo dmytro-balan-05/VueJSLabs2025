@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.ad-slot {
+    margin-top: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border: 1px dashed #ccc;
+    color: #333;
+}
