@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "latest",
+    "@nuxtjs/robots": "latest",
+    "@nuxtjs/seo": "latest",
+    "@nuxtjs/sitemap": "latest",
+    "nuxt": "latest",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
