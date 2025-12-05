@@ -1,0 +1,1 @@
+<template><h3>Огляд</h3><input placeholder="Цей текст збережеться"/></template>
